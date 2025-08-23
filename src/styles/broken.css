@@ -1,0 +1,18 @@
+/* CSS with syntax errors */
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* Missing closing bracket - will cause parse error
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: invalidvalue; /* Invalid CSS value */
+}
+
+/* Another missing bracket issue */
+.button {
+  background-color: blue;
+  color: white
+  /* Missing semicolon and bracket */
